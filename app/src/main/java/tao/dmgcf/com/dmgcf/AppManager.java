@@ -3,6 +3,7 @@ package tao.dmgcf.com.dmgcf;
 import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
+import android.content.pm.PackageManager;
 
 import java.util.Stack;
 
@@ -132,6 +133,41 @@ public class AppManager {
         }
 
     }
+
+    /**
+     * 获取软件版本号
+     *
+     * @param context 上下文
+     * @return 当前版本Code  设备程序识别版本(升级)用的必须是一个interger值 代表app更新过多少次
+     */
+    public static int getVerCode(Context context) {
+        int verCode = -1;
+        try {
+            String packageName = context.getPackageName();
+            verCode = context.getPackageManager().getPackageInfo(packageName, 0).versionCode;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return verCode;
+    }
+
+    /**
+     * 获取软件显示版本信息
+     *
+     * @param context 上下文
+     * @return 当前版本信息  给用户看的
+     */
+    public static String getVerName(Context context) {
+        String verName = "";
+        try {
+            String packageName = context.getPackageName();
+            verName = context.getPackageManager().getPackageInfo(packageName, 0).versionName;
+        } catch (PackageManager.NameNotFoundException e) {
+            e.printStackTrace();
+        }
+        return verName;
+    }
+
 
 
 }
