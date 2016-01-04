@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 根据android官网提供的颜色表进行颜色匹配     https://www.google.com/design/spec/style/color.html#color-color-palette -->
+
+
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <color name="dmg_red_color">#FD5353</color>
+    <color name="dmg_orange_color">#FF7123</color>
+
+    <!--背景颜色-->
+    <color name="dmg_white_bg_color">#FFFFFF</color>
+    <color name="dmg_gray_bg_color">#EFEFEF</color>
+    <color name="dmg_line_bg_color">#D3D3D3</color>
+
+    <!--文字颜色-->
+    <color name="dmg_white_font_color">#D3D3D3</color>
+    <!--浅灰色——提示性文字-->
+    <color name="dmg_lightgray_font_color">#999999</color>
+    <!--灰色——辅助 默认状态文字-->
+    <color name="dmg_gray_font_color">#838383</color>
+    <!--黑色——标题 正文 金额等主要颜色-->
+    <color name="dmg_black_font_color">#484848</color>
+    <color name="dmg_red_font_color">#FD5353</color>
+    <color name="dmg_blue_font_color">#1284FE</color>
+
+
+
+
 </resources>
