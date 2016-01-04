@@ -1,4 +1,4 @@
-package tao.dmgcf.com.dmgcf.ui;
+package tao.dmgcf.com.dmgcf.ui.activity;
 
 import android.app.ProgressDialog;
 import android.content.Intent;

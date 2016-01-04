@@ -6,7 +6,7 @@ import android.content.Context;
 
 import java.util.Stack;
 
-import tao.dmgcf.com.dmgcf.ui.BaseActivity;
+import tao.dmgcf.com.dmgcf.ui.activity.BaseActivity;
 
 /**
  * Created by tao on 2016/1/4.
