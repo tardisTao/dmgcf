@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:background="@color/dmg_gray_bg_color"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+
+    <RadioGroup
+        android:id="@+id/group_public_footer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/rb_foot_bar_recomm"
+            style="@style/main_footbar_radio"
+            android:checked="true"
+            android:drawableTop="@drawable/navigation_bar_recommend_bg"
+            android:text="@string/string_footer_recommend"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_foot_bar_product"
+            style="@style/main_footbar_radio"
+            android:drawableTop="@drawable/navigation_bar_productlist_bg"
+            android:text="@string/string_footer_productlist"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_foot_bar_myproperty"
+            style="@style/main_footbar_radio"
+            android:drawableTop="@drawable/navigation_bar_myproperty_bg"
+            android:text="@string/string_footer_myproperty"
+            android:textSize="13sp" />
+
+        <RadioButton
+            android:id="@+id/rb_foot_bar_more"
+            style="@style/main_footbar_radio"
+            android:drawableTop="@drawable/navigation_bar_more_bg"
+            android:text="@string/string_footer_more"
+            android:textSize="13sp" />
+
+    </RadioGroup>
+
+
+</LinearLayout>

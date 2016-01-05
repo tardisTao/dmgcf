@@ -16,7 +16,7 @@
     <color name="dmg_line_bg_color">#D3D3D3</color>
 
     <!--文字颜色-->
-    <color name="dmg_white_font_color">#D3D3D3</color>
+    <color name="dmg_white_font_color">#FFFFFF</color>
     <!--浅灰色——提示性文字-->
     <color name="dmg_lightgray_font_color">#999999</color>
     <!--灰色——辅助 默认状态文字-->
@@ -25,7 +25,6 @@
     <color name="dmg_black_font_color">#484848</color>
     <color name="dmg_red_font_color">#FD5353</color>
     <color name="dmg_blue_font_color">#1284FE</color>
-
 
 
 
