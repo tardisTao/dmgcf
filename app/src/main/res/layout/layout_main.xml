@@ -4,7 +4,9 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-    <include layout="@layout/public_main_header" />
+    <include
+        android:id="@+id/include_main_title"
+        layout="@layout/public_main_header" />
 
     <FrameLayout
         android:id="@+id/fragment_main_container"
