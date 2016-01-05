@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">dmgcf</string>
 
+
     <!--引导页面-->
-    
+    <string name="guide_button_in">立即进入</string>
 
 
 </resources>
