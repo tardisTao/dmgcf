@@ -25,6 +25,14 @@
                 android:layout_width="match_parent"
                 android:layout_height="180dp" />
 
+            <LinearLayout
+                android:id="@+id/ll_dot_group_recomm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="-20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal" />
+
 
         </LinearLayout>
     </in.srain.cube.views.ptr.PtrFrameLayout>
