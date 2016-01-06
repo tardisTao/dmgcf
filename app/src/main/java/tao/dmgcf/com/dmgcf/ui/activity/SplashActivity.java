@@ -36,7 +36,7 @@ public class SplashActivity extends BaseActivity {
                 public void run() {
                     forwardAndFinish(MainActivity.class);
                 }
-            },3000);
+            },2000);
         }
     }
 
