@@ -4,10 +4,12 @@ import android.app.Activity;
 import android.app.ActivityManager;
 import android.content.Context;
 import android.content.pm.PackageManager;
+import android.widget.Toast;
 
 import java.util.Stack;
 
 import tao.dmgcf.com.dmgcf.ui.activity.BaseActivity;
+import tao.dmgcf.com.dmgcf.util.ToastUtils;
 
 /**
  * Created by tao on 2016/1/4.
